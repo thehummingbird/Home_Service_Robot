@@ -16,6 +16,7 @@ A Turtlebot is used for interacting with the simulated environment using its odo
 Out of graph and grid based mapping, A grid based SLAM approach is used to map the environment using gmapping package. This approach uses particles based Adaptive Monte Carlo Localization (AMCL) and Occupancy Grids to map the environment
 
 The map is stored using map_server.
+
 map_file:=(pkg)/myMap.yaml
 
 <img src="https://github.com/thehummingbird/Home_Service_Robot/blob/master/images/map_gmapping.JPG">
